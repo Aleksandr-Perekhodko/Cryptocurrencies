@@ -1,1 +1,5 @@
 # Cryptocurrencies
+
+# Overview of Challange
+
+In this weeks challange we used unsupersized learning to create visuals on traded cryptocurrencies, using both 3D models and 2D model. The models were created using python and using Jupyter Notebook and imopoting pandas, sklean, hvplot, and plotly. The data was first cleaned for the machine learning process to begin then scaled the data. After used PCA to reduce the data dimensions by adding 3 pricipal components. Then created an elbow curve to determine the n_clusters and initialized the KMeans and created predictions, and joining the predictions and the CoinName to the main DataFrame that is being used. And finally created a 3D scatter model using the prinicpal components, class, CoinName, Algorithm, TotalCoinsMined, and TotalCoinSupply for the model. And after added used CoinName, Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, and Class to create a hvplot table, and joined those to a DataFrame that will be used to plot with new columns for TtoalCoinsMined_scaled, and TotalCoinSupply_Scaled to create the scatter hvplot.
